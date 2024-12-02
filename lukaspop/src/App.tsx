@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage.tsx';
 import ContactPage from './pages/ContactPage.tsx';
 import ProjectPage from './pages/ProjectPage.tsx';
