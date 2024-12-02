@@ -4,8 +4,17 @@
 }
 body {
     background-color: #f9f9f9;
+    font-size: 1.25rem;
     color: #213547;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.orange {
+    color: #ff5c00;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
 }
