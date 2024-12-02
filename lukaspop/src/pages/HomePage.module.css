@@ -1,0 +1,11 @@
+.bolt {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700; /* Bold */
+}
+body {
+    background-color: #f9f9f9;
+    color: #213547;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

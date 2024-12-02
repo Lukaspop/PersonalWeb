@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
 
 a {
   font-weight: 500;
@@ -65,4 +69,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Gilroy-Regular.woff') format('woff'),
+       url('/assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
 }

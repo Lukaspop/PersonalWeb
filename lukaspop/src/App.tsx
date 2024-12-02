@@ -3,12 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage.tsx';
 import ContactPage from './pages/ContactPage.tsx';
 import ProjectPage from './pages/ProjectPage.tsx';
-
-const App = () => {
-  return (
-    <Router>
-      <div>
-        <nav>
+/*
+<nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -21,6 +17,12 @@ const App = () => {
             </li>
           </ul>
         </nav>
+*/ 
+const App = () => {
+  return (
+    <Router>
+      <div>
+        
 
         <Routes>
           <Route path="/" element={<HomePage />} />

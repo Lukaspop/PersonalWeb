@@ -1,10 +1,10 @@
 import React from 'react';
-
+import styles from './HomePage.module.css';
 export const HomePage = () => {
   return (
     <div>
-      <h1>Nějaký chytlavý text</h1>
-      <p>Ahoj, jmenuji se <span>Lukas Pop</span></p>
+      <h1>Ahoj ty beta-samče</h1>
+      <p>jmenuju se <span className={styles.bolt}>Lukas Pop</span>a jsem majitelem mléčné dráhy.</p>
     </div>
   );
 };
